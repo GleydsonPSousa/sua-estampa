@@ -1,0 +1,9 @@
+Coloque aqui os arquivos de mídia do portal, com estes nomes exatos:
+
+banner.mp4              (vídeo do topo da página inicial)
+pelegrini.jpg           (foto da empresa Pelegrini)
+new-chaveiro.jpg        (foto da New Chaveiro)
+zadoque.jpg             (foto da Zadoque)
+educacao-trememe.jpg    (foto da escola Educação Trememé)
+
+Se algum arquivo faltar, o portal continua funcionando; só aquela imagem não aparece.
