@@ -134,7 +134,7 @@ async function hs(p){var b=await crypto.subtle.digest("SHA-256",new TextEncoder(
 function lget(){try{var j=JSON.parse(localStorage.getItem("se_portal"));if(j)S=j}catch(e){}}
 function lput(){try{localStorage.setItem("se_portal",JSON.stringify(S))}catch(e){}}
 function toast(m){var t=document.getElementById("toast");t.textContent=m;t.className="on";setTimeout(function(){t.className=""},2200)}
-var API="COLE_AQUI_A_URL_DO_APPS_SCRIPT";
+var API="https://script.google.com/macros/s/AKfycbzphDs3StC_cy4vKrhTbNJMm_UXJZhyR7qtqJRnXzMSC_JgwNwKLJAEG9IIvyZbfIGT/exec";
 function expirou(){ses=null;S.clientes=[];S.pedidos=[];S.solicitacoes=[];err="Sessão expirada. Entre novamente.";render(true)}
 async function api(a,d){
   if(!/^https:\/\//.test(API))throw new Error("O portal ainda não foi conectado à planilha.");
